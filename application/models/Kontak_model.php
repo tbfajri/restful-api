@@ -78,7 +78,7 @@ class Kontak_model extends CI_Model{
         }
     }
 
-    // menghapus kontak 
+    // menghapus kontak database
     public function delete($id){
         if($id == ''){
             return $this->empty_response();
